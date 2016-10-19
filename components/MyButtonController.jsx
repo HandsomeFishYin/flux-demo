@@ -26,7 +26,7 @@ var MyButtonController = React.createClass({
   },
 
   createNewItem: function (event) {
-    ButtonActions.addNewItem('new item');
+    ButtonActions.addNewItem('new item'+ Math.random());
   },
 
   deleteItem:function(){

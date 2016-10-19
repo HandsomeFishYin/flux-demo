@@ -17,6 +17,7 @@ var ButtonActions = {
   },
 
   deleteSelected:function(index){
+    console.log("index",index);
     AppDispatcher.dispatch({
       actionType:'DELETE_SELECT_ITEM',
       index:index
